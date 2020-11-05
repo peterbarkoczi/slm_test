@@ -22,8 +22,8 @@
     "styled-components": "^5.1.1"
   },
   "scripts": {
-    "start-server": "node server/server.js",
-    "start": "react-scripts start",
+    "start": "node server/server.js",
+    "start-npm": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --coverage --watchAll=false",
     "eject": "react-scripts eject",
