@@ -10,7 +10,7 @@ const AddPlayerModal = (props) => {
     const onSubmit = (data) => {
         console.log(numbers);
         console.log(data);
-        // setIsAdded(true);
+        setIsAdded(true);
         handleClose();
     };
 
