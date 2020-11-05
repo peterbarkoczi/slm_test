@@ -1,38 +1,252 @@
-.App {
-  text-align: center;
+/*body {*/
+/*    background-image: url("../src/greenSoccer.jpg");*/
+/*    background-position: center;*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: cover;*/
+/*    height: 100%;*/
+/*}*/
+
+a {
+    text-decoration: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a:hover {
+    text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.leagueDetail a {
+    color: white;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#cupName {
+    color: white;
+    text-align: center;
+    padding: 1%;
 }
 
-.App-link {
-  color: #61dafb;
+.matchTable th, td {
+    text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.teamCell {
+    width: 38%;
+}
+
+.scoreCell {
+    width: 8%;
+}
+
+.cardIconCell {
+    width: 4%;
+}
+
+#scorer {
+    white-space: pre
+}
+
+.matchTypeTitle {
+    font-size: 2.5em;
+    color: white;
+    text-align: center;
+    padding: 2%;
+}
+
+/*.cardImage {*/
+/*    cursor: pointer;*/
+/*}*/
+
+/* Player table */
+
+.playerIndexCell {
+    width: 5%;
+}
+
+.playerNumberCell {
+    width: 5%;
+}
+
+.playerNameCell {
+    width: 50%;
+}
+
+.playerGoalsCell {
+    width: 20%;
+}
+
+#playersTable th {
+    text-align: center;
+}
+/*------------------*/
+
+/* Admin page table */
+
+#adminPageTable {
+    background-image: url("../src/soccer-background-dark_blue.jpg");
+    background-size: cover;
+
+    margin: 2% 15%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2), 10px 6px 20px 0 rgba(0, 0, 0, 5);
+    border-radius: 15px;
+    opacity: 0.9;
+}
+
+#adminPageTable h1, th, td {
+    border: greenyellow;
+    color: white;
+    text-align: center;
+    margin: 3% 0;
+}
+
+.adminPageIndex {
+    width: 5%;
+}
+
+.adminPageUsername {
+    width: 20%;
+}
+
+.adminPageRole {
+    width: 20%;
+}
+
+.adminPageTeam {
+    width: 20%;
+}
+
+/*------------------*/
+
+#cupGroupTables {
+    overflow: auto;
+}
+
+#leftTable {
+    margin: 1%;
+    width: 40%;
+    float: left;
+}
+
+#rightTable {
+    margin: 1%;
+    width: 40%;
+    float: right;
+}
+
+#playerName, #playerCard {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+/* SignIn - SignUp */
+
+.signContainer {
+    margin: auto;
+    width: 50%;
+    background-image: url("./soccer-background-dark_blue.jpg");
+    border-radius: 20px;
+}
+
+.signContainer h1 {
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+}
+
+.signContainer label {
+    color: white;
+    padding: 2% 1% 1%;
+    font-size: 1.7em;
+}
+
+.signContainer .form-group {
+    margin: auto;
+    width: 50%;
+}
+
+.signContainer .signActionButtons {
+    margin-top: 4%;
+    padding-bottom: 2%;
+}
+
+.error {
+    background: wheat;
+    color: red;
+}
+
+/* ContentList */
+
+.contentList {
+    margin: 7% auto auto;
+    width: 50vw;
+    /*height: 50%;*/
+}
+
+.contentList h1 {
+    margin-bottom: 0;
+    padding: 1.2%;
+    width: fit-content;
+    color: white;
+    background-image: url("./soccer-background-grey.jpg");
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.addButton {
+    background-image: url("./soccer-background-grey.jpg");
+    border: none;
+}
+
+.contentListRow {
+    border: none;
+    /*background-image: url("./soccerManagerTableBackground.jpg");*/
+    background: url("./soccer-background-grey.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-bottom: 1%;
+    opacity: 0.8;
+}
+
+.league, .cup, .team {
+    font-size: 1.7em;
+    color: white;
+    width: 50%;
+}
+
+#leaguesList, #cupsList, #teamList {
+
+}
+
+.leagueDetail {
+    margin-top: 2%;
+}
+
+#matchDetailsNavButtons {
+    color: white;
+    margin: auto;
+}
+
+/* Matches */
+
+.matchTableContainer {
+    width: 85%;
+    margin: auto;
+}
+
+.matchTable {
+    background: url("./soccer-background-grey.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.addCardButtonWithImage {
+    padding: 0;
+    border: none;
+}
+
+.matchFinishButton:disabled {
+    background: gray;
 }

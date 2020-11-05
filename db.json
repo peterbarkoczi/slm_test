@@ -1,0 +1,230 @@
+{
+  "teams": [
+    {
+      "teamName": "Kiss Team",
+      "id": 1,
+      "leagueId": 1,
+      "subLeague": "Kedd"
+    },
+    {
+      "teamName": "Kopacky",
+      "id": 2,
+      "leagueId": 1,
+      "subLeague": "Kedd"
+    },
+    {
+      "teamName": "AC Calciopoli",
+      "id": 3,
+      "leagueId": 1,
+      "subLeague": "Kedd"
+    },
+    {
+      "teamName": "Green-Go",
+      "id": 4,
+      "leagueId": 1,
+      "subLeague": "Kedd"
+    },
+    {
+      "teamName": "Avengers",
+      "id": 5,
+      "leagueId": 1,
+      "subLeague": "Kedd"
+    },
+    {
+      "teamName": "TÖFC",
+      "id": 6,
+      "leagueId": 1,
+      "subLeague": "Kedd"
+    },
+    {
+      "teamName": "FociFenZ",
+      "id": 7,
+      "leagueId": 1,
+      "subLeague": "Kedd"
+    },
+    {
+      "teamName": "Faláb Se",
+      "id": 8,
+      "leagueId": 1,
+      "subLeague": "Kedd"
+    },
+    {
+      "teamName": "Dave Krokodiljai",
+      "id": 9,
+      "leagueId": 1,
+      "subLeague": "Kedd"
+    },
+    {
+      "teamName": "Májer München",
+      "id": 10,
+      "leagueId": 1,
+      "subLeague": "Kedd"
+    },
+    {
+      "teamName": "X-Taki",
+      "id": 11,
+      "leagueId": 1,
+      "subLeague": "Kedd"
+    },
+    {
+      "teamName": "Trafik",
+      "id": 12,
+      "leagueId": 2,
+      "subLeague": "1.osztály"
+    },
+    {
+      "teamName": "Color FC",
+      "id": 13,
+      "leagueId": 2,
+      "subLeague": "1.osztály"
+    },
+    {
+      "teamName": "Hooligans",
+      "id": 14,
+      "leagueId": 2,
+      "subLeague": "1.osztály"
+    },
+    {
+      "teamName": "Hyginett",
+      "id": 15,
+      "leagueId": 2,
+      "subLeague": "1.osztály"
+    },
+    {
+      "teamName": "HTC",
+      "id": 16,
+      "leagueId": 2,
+      "subLeague": "1.osztály"
+    },
+    {
+      "teamName": "Turul",
+      "id": 17,
+      "leagueId": 2,
+      "subLeague": "1.osztály"
+    },
+    {
+      "teamName": "Zsófialiget",
+      "id": 18,
+      "leagueId": 2,
+      "subLeague": "1.osztály"
+    },
+    {
+      "teamName": "Komplexus",
+      "id": 19,
+      "leagueId": 2,
+      "subLeague": "1.osztály"
+    },
+    {
+      "teamName": "Boldizsár",
+      "id": 20,
+      "leagueId": 2,
+      "subLeague": "1.osztály"
+    },
+    {
+      "teamName": "17 Ker-B-Terv",
+      "id": 21,
+      "leagueId": 2,
+      "subLeague": "1.osztály"
+    },
+    {
+      "teamName": "Kistarcsa BT",
+      "id": 22,
+      "leagueId": 2,
+      "subLeague": "1.osztály"
+    },
+    {
+      "teamName": "Szilas United",
+      "id": 23,
+      "leagueId": 2,
+      "subLeague": "1.osztály"
+    }
+  ],
+  "leagues": [
+    {
+      "name": "Újbuda Liga",
+      "id": 1
+    },
+    {
+      "name": "KISTARCSAI KISPÁLYÁS BAJNOKSÁG",
+      "id": 2
+    }
+  ],
+  "subLeagues": [
+    {
+      "name": "Hétfő",
+      "leagueId": 1
+    },
+    {
+      "name": "Kedd",
+      "leagueId": 1
+    },
+    {
+      "name": "Szerda",
+      "leagueId": 1
+    },
+    {
+      "name": "Csütörtök",
+      "leagueId": 1
+    },
+    {
+      "name": "Péntek",
+      "leagueId": 1
+    },
+    {
+      "name": "1.osztály",
+      "leagueId": 2
+    },
+    {
+      "name": "2.osztály",
+      "leagueId": 2
+    }
+  ],
+  "cups": [
+    {
+      "name": "I.Újbuda Liga Tengo Turnament",
+      "leagueId": 1,
+      "teams": [
+        {
+          "teamName": "DINAMIKUS DUO"
+        },
+        {
+          "teamName": "GYILKOS MENDEZ"
+        },
+        {
+          "teamName": "KL TEAM"
+        },
+        {
+          "teamName": "RIZIKÓ"
+        },
+        {
+          "teamName": "KOPI&ILIE"
+        },
+        {
+          "teamName": "CSAPATNÉV"
+        },
+        {
+          "teamName": "LEVELCEF"
+        },
+        {
+          "teamName": "LEGUÁNKOMMANDÓ"
+        },
+        {
+          "teamName": "VIKTOM"
+        },
+        {
+          "teamName": "ALMABOMBA"
+        }
+      ]
+    },
+    {
+      "name": "Másik kupa",
+      "leagueId": 1,
+      "teams": []
+    },
+    {
+      "name": "Harmadik kupa",
+      "leagueId": 2,
+      "teams": []
+    }
+  ]
+}
