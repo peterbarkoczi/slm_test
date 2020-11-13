@@ -32,7 +32,7 @@ const HeaderStyle = styled.div`
    
    .title h2 {
       color: whitesmoke;
-      font-size: 4em;
+      font-size: 4vw;
       margin-top: 0;
       margin-bottom: 0;
       padding-left: 1%;
@@ -40,7 +40,7 @@ const HeaderStyle = styled.div`
    
    .title h3 {
       color: floralwhite;
-      font-size: 2em;
+      font-size: 2.5vw;
       padding-left: 1%;
    }
    
@@ -70,13 +70,18 @@ const HeaderStyle = styled.div`
    .loggedInButtons {
       float: right;
       vertical-align: middle;
-      margin-right: 1%;  
+      //margin-right: 1%;
+      margin: auto;
    }
    
    #logout, #adminPage {
       //padding-right: 20%;
-      margin: 5%
+      margin: auto;
       //opacity: 0.8;
+   }
+   
+   #logoutButton, #adminPageButton {
+      font-size: 1vw;
    }
    
    #headerNavMenu {
@@ -86,6 +91,14 @@ const HeaderStyle = styled.div`
       box-sizing: border-box;
       display: flex;
       justify-content: center;
+   }
+   
+   #headerNavMenu a {
+      font-size: 2.5vw;
+      padding-top: 0;
+      padding-right: 1%;
+      padding-left: 1%;
+      background: rgba(9,8,8,0.25);
    }
    
    .navButton {
@@ -100,12 +113,47 @@ const HeaderStyle = styled.div`
       border: none;
    }
    
-   #headerNavMenu a {
-      font-size: 2em;
-      padding-top: 0;
-      padding-right: 1%;
-      padding-left: 1%;
-      background: rgba(9,8,8,0.25);
+      
+   @media screen and (max-width: 900px) {
+      //.title h2 {
+      //  font-size: 2em;
+      //}
+      
+      //.title h3 {
+      //  font-size: 1em;
+      //}
+      
+      #logout, #adminPage {
+        float: right;
+      }
+      
+      #headerNavMenu {
+        flex-grow: 1;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      #headerNavMenu a {
+        font-size: 3.5vw;
+      }
+   }
+   
+   @media screen and (max-width: 510px) {
+      //.title h2 {
+      //  font-size: 1em;
+      //}
+      
+      //.title h3 {
+      //  font-size: 0.5em;
+      //}
+      
+      //#logoutButton {
+      //  font-size: 0.25em;
+      //}
+      //
+      //#headerNavMenu a {
+      //  font-size: 1em;
+      //}
    }
 `;
 
