@@ -21,15 +21,17 @@ const LocationStyle = styled.div`
         text-align: center;
         margin: auto;
         width: 50%;
-        font-size: 2.5em;
+        font-size: 3vw;
     }
     
     #addLocation {
+        margin-top: 0;
         float: right;
         //width: 50%;
     }
     
     #addLocationButton {
+        font-size: 1vw;
         border-radius: 0 0 20px 20px;
         background-image: url(${TableBackground});
         border: none;
@@ -53,12 +55,19 @@ const LocationStyle = styled.div`
     
     #locationItem a {
         color: white;
-        font-size: 1.7em;
+        font-size: 2vw;
     }
     
     #locationItem Button {
         font-size: 1.1em;
     }
+    #deleteIcon {
+        font-size: 2vw;
+    }
+    //
+    //@media screen and (max-width: 900px) {
+    //
+    //}
     
 `
 
@@ -139,7 +148,7 @@ const Location = () => {
                                 setIsShown(true);
                                 setSelectedId(location.id)
                             }} style={{color: "yellow"}}>
-                                <DeleteIcon />
+                                <DeleteIcon id="deleteIcon" />
                             </IconButton>
                             }
                             <Suspense fallback={<h1>Loading...</h1>}>
